@@ -15,6 +15,8 @@ function setJsonHeaders (res, path) {
 // Serve up public folder
 app.use('/', serveStatic('public', {'index': ['index.html', 'index.htm']}))
 
-app.listen(5000, function() {
-    console.log('Acesse: https://webjumpdesafio.herokuapp.com/')
+
+app.listen(process.env.PORT || 5000, function () {
+   server.address().port;
+  console.log("Express is working on port " + port);
 });
