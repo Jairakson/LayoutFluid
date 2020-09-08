@@ -1,0 +1,40 @@
+.Menu__Mobile_Linha {
+    display: grid;
+    grid-template-areas:
+        "Barra_Menu"
+        "Logo"
+        "Busca";
+    grid-template-columns: 15% 70% 15%;
+}
+
+.Menu___Mobile___Icon___Menu {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.Menu___Mobile___Logo {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Menu___Mobile___Icon___Buscar {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #c40e1d;
+}
+
+
+@media only screen and (min-width:  768px) {
+    
+    .Menu__Mobile{
+        display: none;
+    }
+
+
+}
+

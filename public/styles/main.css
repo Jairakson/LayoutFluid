@@ -1,0 +1,17 @@
+html{
+    font-family: "Open Sans" ;   
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+@media only screen and (min-width:  768px) {
+    
+
+
+}

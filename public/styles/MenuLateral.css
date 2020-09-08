@@ -1,0 +1,65 @@
+.boxMenulateral {
+    border: 2px solid #e2dedd;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.tilteMenuLateral {
+    color: #cc0c21;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.subTileMenuLateral {
+    color: #64918a;
+    font-weight: 600;
+    padding: 0.2em 0em;
+    font-size: 1em;
+    margin: 1rem 0rem;
+}
+
+.linkMenuLateral {
+    color: #626262;
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+.btnVermelho {
+    height: 1.5em;
+    width: 3em;
+    border: 1px solid #cc0d1f;
+    background: #cc0d1f;
+    transition: 0.6s;
+}
+
+.btnAzul {
+    height: 1.5em;
+    width: 3em;
+    border: 1px solid #27a2a9;
+    background: #27a2a9;
+    transition: 0.6s;
+}
+
+.btnLaranja {
+    height: 1.5em;
+    width: 3em;
+    border: 1px solid #f16323;
+    background: #f16323;
+    transition: 0.6s;
+}
+
+
+
+
+@media only screen and (min-width:  768px) {
+    
+  
+
+}

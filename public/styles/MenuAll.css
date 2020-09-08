@@ -1,0 +1,29 @@
+
+.Menu-Desktop{
+    display:none;
+}
+
+.menu li {
+    display: inline-flex;
+}
+
+.menu li a {
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    font-size: 1.5em;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .Menu-Desktop {
+        display:block;
+        background: #cc0d1f;
+        padding: 1rem 0rem;
+        margin: 1rem 0rem;
+    }
+}
+

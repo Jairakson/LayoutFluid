@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webjump - Desafio Frontend</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="FontAwesome/font-awesome/css/font-awesome.min.css">
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/Header.css" rel="stylesheet">
+  <link href="styles/Menu.css" rel="stylesheet">
+  <link href="styles/BarraBuscarMobile.css" rel="stylesheet">
+  <link href="styles/MenuAll.css" rel="stylesheet">
+  <link href="styles/MenuLateral.css" rel="stylesheet">
+  <link href="styles/Produtos.css" rel="stylesheet">
+  <link href="styles/Rodape.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="Top1" data-conteudo-header></section>
+  <section class="Menu__Mobile" data-conteudo-menu></section>
+  <section class="Barra-Buscar">Buscar</section>
+  <section class="Menu-Desktop" data-conteudo-MenuAll></section>
+  <section class="Corpo-Site">
+    <div class="container teste">
+    <div class="Produtos">
+      <div class="Produtos___Menu">
+          <div class="Produtos___NavBar"></div>
+          <div class="Produtos___MenuLateral" data-conteudo-menuLateral></div>
+        </div>
+        <div class="Produtos___Grid">
+          <div class="Produtos___TituloPagina">Sapatos</div>
+          <div class="Produtos___Lista" data-conteudo-Produtos></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="rodape" data-conteudo-Rodape></footer>
+
+
+
+
+</body>
+<script src="model/Header.js"></script>
+<script src="model/Menu.js"></script>
+<script src="model/MenuAll.js"></script>
+<script src="model/MenuLateral.js"></script>
+<script src="model/Sapatos.js"></script>
+<script src="model/Rodape.js"></script>
+<script src="controller/controllerSapatos.js"></script>
+
+</html>
