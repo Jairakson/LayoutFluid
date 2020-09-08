@@ -16,5 +16,5 @@ function setJsonHeaders (res, path) {
 app.use('/', serveStatic('public', {'index': ['index.html', 'index.htm']}))
 
 app.listen(8888, function() {
-    console.log('Acesse: http://localhost:8888')
+    console.log('Acesse: https://webjumpdesafio.herokuapp.com/')
 });
